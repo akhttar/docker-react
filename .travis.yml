@@ -4,6 +4,7 @@ services:
   - docker #copy of docker
 
 before_install: #before test run or installing start, need to run few command before installation
+  - gem install bundler
   - docker build -t gulrezaktharkhan/docker-react -f Dockerfile.dev . 
 
 script:
