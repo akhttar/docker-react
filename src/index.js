@@ -13,9 +13,6 @@ ReactDOM.render(
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
-<<<<<<< HEAD
-// Learn more about service workers: https://bit.ly/CRA- changed fb_5
-=======
+
 // Learn more about service workers: https://bit.ly/CRA- changed fb_5 version 1
->>>>>>> fb_5
 serviceWorker.unregister();
